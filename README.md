@@ -1,3 +1,3 @@
 FitBit Fitness Tracker Data contains personal fitness trackers from FitBit users. 
 
-correlation
+The data: date, calories burned, steps
