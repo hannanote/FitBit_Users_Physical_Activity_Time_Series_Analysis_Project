@@ -7,7 +7,7 @@ library(lmtest)
 source('eacf.R')
 source('backtest.R')
 
-steps = read.csv("./Fitabase Data 4.12.16-5.12.16/hourlySteps_merged.csv")
+steps = read.csv("C:/Users/isabe/choin\Downloads\Hannanote/hourlySteps_merged.csv")
 steps$ActivityHour = mdy_hms(steps$ActivityHour)
 
 steps_agg = steps %>% group_by(ActivityHour) %>% summarise(StepAvg = mean(StepTotal))

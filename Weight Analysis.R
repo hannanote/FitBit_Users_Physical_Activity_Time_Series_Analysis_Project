@@ -13,7 +13,7 @@ library(tseries)
 library(fpp2)
 
 
-weight = read.csv("weightLogInfo_merged.csv")
+weight = read.csv("C:/Users/isabe/choin\Downloads\Hannanote/weightLogInfo_merged.csv")
 weight
 head(weight)
 tail(weight)

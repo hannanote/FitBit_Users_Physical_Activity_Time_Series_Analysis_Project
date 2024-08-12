@@ -8,7 +8,7 @@ library(fGarch)
 source('eacf.R')
 source('backtest.R')
 
-calories <- read.csv("C:/Users/isabe/Downloads/425 Final Project/hourlyCalories_merged.csv")
+calories <- read.csv("C:/Users/isabe/choin\Downloads\Hannanote/hourlyCalories_merged.csv")
 head(calories)
 calories$ActivityHour = mdy_hms(calories$ActivityHour)
 

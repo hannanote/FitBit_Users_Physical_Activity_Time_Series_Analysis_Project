@@ -1,9 +1,9 @@
 library("dplyr")
 library(stringr)
-library(ggplot2)   # For qplot
+library(ggplot2)   
 library(fBasics)
-library(lubridate) # for mdy date conversion
-library(ggfortify) # for ts autoplot
+library(lubridate) 
+library(ggfortify)
 library(zoo)
 
 intensity <- hourlyIntensities_merged
