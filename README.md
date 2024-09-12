@@ -23,6 +23,9 @@ Next step
 - There is not engough data. It is difficult to check trends or seasonality more deeply.
 
 ### Steps Analysis
+- Clear seasonality
+- Trend line could be smoothed even further
+- Possibly 2 seasonalities wirh repeating double peaks in each cycle
 ![image](https://github.com/user-attachments/assets/5cd0dcac-3458-43b6-b778-ec27472dc31a)
 
 ![image](https://github.com/user-attachments/assets/9f245d8d-def6-4c5a-a992-fe4cd2dde7e8)
