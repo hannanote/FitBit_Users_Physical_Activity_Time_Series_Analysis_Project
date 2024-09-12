@@ -25,7 +25,8 @@ Next step
 ### Steps Analysis
 - Clear seasonality
 - Trend line could be smoothed even further
-- Possibly 2 seasonalities wirh repeating double peaks in each cycle
+- Possibly 2 seasonalities wirh repeating double peaks in each cycle <br>
+
 ![image](https://github.com/user-attachments/assets/5cd0dcac-3458-43b6-b778-ec27472dc31a)
 
 ![image](https://github.com/user-attachments/assets/9f245d8d-def6-4c5a-a992-fe4cd2dde7e8)
