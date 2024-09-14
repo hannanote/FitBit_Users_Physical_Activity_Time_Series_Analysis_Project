@@ -28,10 +28,6 @@ Next step
 
 ![image](https://github.com/user-attachments/assets/5cd0dcac-3458-43b6-b778-ec27472dc31a)
 
-![image](https://github.com/user-attachments/assets/9f245d8d-def6-4c5a-a992-fe4cd2dde7e8)
-
-![image](https://github.com/user-attachments/assets/08c343f2-a70d-41f3-9218-04a9d0e49526)
-
 <img src='https://github.com/user-attachments/assets/9f245d8d-def6-4c5a-a992-fe4cd2dde7e8' width='400px' height='300px'>
 <img src='https://github.com/user-attachments/assets/08c343f2-a70d-41f3-9218-04a9d0e49526' width='400px' height='300px'>
 
