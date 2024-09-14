@@ -33,9 +33,13 @@ Next step
 
 ![image](https://github.com/user-attachments/assets/08c343f2-a70d-41f3-9218-04a9d0e49526)
 
+![image](https://github.com/user-attachments/assets/6d627cc2-7cb0-4fd2-be39-4d487526a174)
+
 2. Model Development:
    - Various SARIMA models were tested, including models like ARIMA(2,0,2)(1,1,1) and ARIMA(1,0,0)(0,1,1). While some models like (2,0,2)(1,1,1) could not confirm coefficient significance, simpler models like (1,0,0)(0,1,1) performed well without autocorrelation issues in the residuals.
    - The AIC and BIC criteria were used to choose models, and surprisingly, the BIC model had higher AIC and BIC values compared to simpler models. The auto ARIMA model created with the BIC criterion also had significant parameters, but performed poorly compared to manual models.
+
+![image](https://github.com/user-attachments/assets/c09eaa65-d29d-46e1-8bba-8b1cea22006f)
   
 3. Residual Analysis:
    - For the model ARIMA(1,0,0)(0,1,1), the residuals showed no significant autocorrelation, passing the Box-Ljung test, which indicated that it was a good fit.
@@ -48,6 +52,10 @@ Next step
    - Backtesting revealed that the ARIMA(1,0,0)(0,1,1) model performed better than the BIC model in terms of forecasting accuracy.
    - A transformation of the data (logarithmic transformation) improved the model's performance further, reducing the Mean Absolute Percentage Error (MAPE) to 13%, though at the cost of increased model complexity (six parameters vs two or three in simpler models).
    - Forecasts indicated that the logged series model best captured the step data's cyclical behavior, but with lower peak values in the forecast compared to historical data.
+  
+![image](https://github.com/user-attachments/assets/29e411d6-9f19-4282-9e17-af9478452566)
+
+![image](https://github.com/user-attachments/assets/406ab691-5ff2-4377-9616-49f0fc914db1)
   
 6. Conclusion:
    - SARIMA modeling of the steps data proved to be effective in capturing both the 24-hour seasonality and underlying trends.
