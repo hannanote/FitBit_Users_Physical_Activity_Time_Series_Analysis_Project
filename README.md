@@ -9,11 +9,13 @@ The data: steps, calories burned, weight
 
 ### Weight Analysis
 
+<img src='https://github.com/user-attachments/assets/c83446a1-3eca-4b07-a922-0bfa45db3c35' width='300px' height='150px'>
+<img src='https://github.com/user-attachments/assets/b2f2a7ef-f201-425c-b59f-78222fa6aee7' width='300px' height='150px'>
+
 ![image](https://github.com/user-attachments/assets/c83446a1-3eca-4b07-a922-0bfa45db3c35)
 
 ![image](https://github.com/user-attachments/assets/b2f2a7ef-f201-425c-b59f-78222fa6aee7)
 
-![image](https://github.com/user-attachments/assets/12e9c6d2-2f73-4e1d-a638-fda31d123988)
 
 ### Calories Analysis
 - This data is calories consumed each hour of day.
