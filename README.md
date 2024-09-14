@@ -42,7 +42,7 @@ Next step
    - In contrast, the BIC model, while simpler, showed significant autocorrelation issues at lag 48, limiting its forecasting power beyond 48 hours.
 
 4. Harmonic Regression:
-   - Harmonic regression was attempted to capture the sealsonality, but it performed worse than SARIMA models, especially due to the lack of significant parameters.
+   - Harmonic regression was attempted to capture the seasonality, but it performed worse than SARIMA models, especially due to the lack of significant parameters.
 
 5. Backtesting & Forecasting:
    - Backtesting revealed that the ARIMA(1,0,0)(0,1,1) model performed better than the BIC model in terms of forecasting accuracy.
