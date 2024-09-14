@@ -2,7 +2,7 @@
 FitBit Fitness Tracker Data contains personal fitness trackers from FitBit users. 
 The goal is to provide an analysis how users are using the FitBit.
 
-This analysis uses time sereis data from FitBit users, focusing on their hourly step, hourly calories, and weight data to identify patterns of physical behariot such as steps take at night versus the day, and calorie burning patterns. 
+This analysis uses time sereis data from FitBit users, focusing on their hourly step, hourly calories, and weight data to identify patterns of physical behavior such as steps take at night versus the day, and calorie burning patterns. 
 
 The data: steps, calories burned, weight
 - movement behavior over 30 days from Mar 2016 - May 2016
