@@ -9,9 +9,6 @@ The data: steps, calories burned, weight
 
 ### Weight Analysis
 
-<img src='https://github.com/user-attachments/assets/c83446a1-3eca-4b07-a922-0bfa45db3c35' width='300px' height='150px'>
-<img src='https://github.com/user-attachments/assets/b2f2a7ef-f201-425c-b59f-78222fa6aee7' width='300px' height='150px'>
-
 ![image](https://github.com/user-attachments/assets/c83446a1-3eca-4b07-a922-0bfa45db3c35)
 
 ![image](https://github.com/user-attachments/assets/b2f2a7ef-f201-425c-b59f-78222fa6aee7)
@@ -35,7 +32,8 @@ Next step
 
 ![image](https://github.com/user-attachments/assets/08c343f2-a70d-41f3-9218-04a9d0e49526)
 
-![image](https://github.com/user-attachments/assets/6d627cc2-7cb0-4fd2-be39-4d487526a174)
+<img src='https://github.com/user-attachments/assets/9f245d8d-def6-4c5a-a992-fe4cd2dde7e8' width='400px' height='300px'>
+<img src='https://github.com/user-attachments/assets/08c343f2-a70d-41f3-9218-04a9d0e49526' width='400px' height='300px'>
 
 2. Model Development:
    - Various SARIMA models were tested, including models like ARIMA(2,0,2)(1,1,1) and ARIMA(1,0,0)(0,1,1). While some models like (2,0,2)(1,1,1) could not confirm coefficient significance, simpler models like (1,0,0)(0,1,1) performed well without autocorrelation issues in the residuals.
