@@ -22,6 +22,7 @@ Next step
 - There is not engough data. It is difficult to check trends or seasonality more deeply.
 
 ![b9e051b8-f365-4476-b91f-5a829838f444](https://github.com/user-attachments/assets/a4614945-d7d7-43c4-8342-ade8cfbc4629)
+
 <img src='https://github.com/user-attachments/assets/9ca16f58-c5d1-44c0-bdfa-effefe8467d2' width='600px' height='450px'>
 
 <img src='https://github.com/user-attachments/assets/a4614945-d7d7-43c4-8342-ade8cfbc4629' width='400px' height='300px'>
