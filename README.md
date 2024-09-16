@@ -1,11 +1,12 @@
 ## FitBit Users Physical Activity Analysis
-FitBit Fitness Tracker Data contains personal fitness trackers from FitBit users. 
-The goal is to provide an analysis how users are using the FitBit.
 
-This analysis uses time sereis data from FitBit users, focusing on their hourly step, hourly calories, and weight data to identify patterns of physical behavior such as steps take at night versus the day, and calorie burning patterns. 
+### Introduction
+The FitBit Fitness Tracker Data offers valuable insights into users' daily physical activities and habits by capturing detailed movement and calorie consumption patterns. This dataset includes time series data collected from FitBit users over a 30-day period, spanning from March 12, 2016, to May 16, 2016. It contains information on two key metrics: hourly step counts and calories burned.
 
-The data: steps, calories burned, weight
-- movement behavior over 30 days from Mar 2016 - May 2016
+The primary goal of this analysis is to explore how users engage with their fitness trackers and uncover behavioral trends in their daily activity. Specifically, the analysis aims to identify patterns such as variations in step counts during different times of the day (e.g., nighttime versus daytime activity) and cyclical calorie-burning patterns. Understanding these trends can offer insights into users' fitness behaviors, help in creating personalized fitness plans, and support the development of targeted interventions to improve physical health.
+
+This analysis employs time series models to capture seasonality and trends in users' physical activity. By analyzing these patterns, we aim to provide a deeper understanding of the relationship between daily routines and physical output, such as step counts and calorie expenditure. The ultimate objective is to gain actionable insights that could contribute to enhancing user experience and promoting healthier lifestyles through personalized feedback based on activity patterns.
+
 
 ### Weight Analysis
 
@@ -13,18 +14,6 @@ The data: steps, calories burned, weight
 
 ![image](https://github.com/user-attachments/assets/b2f2a7ef-f201-425c-b59f-78222fa6aee7)
 
-
-### Calories Analysis
-- This data is calories consumed each hour of day.
-- very strong seasonality
-- Daily patterns about calories consumed. 
-Next step
-- There is not engough data. It is difficult to check trends or seasonality more deeply.
-
-<img src='https://github.com/user-attachments/assets/a4614945-d7d7-43c4-8342-ade8cfbc4629' width='600px' height='400px'>
-<br>
-<img src='https://github.com/user-attachments/assets/2344b22b-7776-4815-9344-381832ce11df' width='400px' height='300px'>
-<img src='https://github.com/user-attachments/assets/9ca16f58-c5d1-44c0-bdfa-effefe8467d2' width='400px' height='300px'>
 
 
 ### Steps Analysis
@@ -62,6 +51,28 @@ Next step
 6. Conclusion:
    - SARIMA modeling of the steps data proved to be effective in capturing both the 24-hour seasonality and underlying trends.
    - The simplest model ARIMA(1,0,0)(0,1,1) provided a balance between simplicity and performance. For more precise forecasting, using the log transformation with a more complex model provided improved accuracy.
+
+
+### Calories Analysis
+1. Exploratory Data Analysis:
+The hourly calorie consumption data exhibits clear seasonality, with patterns repeating over a 24-hour period. The ACF (Autocorrelation Function) graph shows a strong correlation at 12 hours, while the differenced ACF confirms a 24-hour seasonality. The EACF plot also supports this, with clear seasonal behavior observed at lag 23. This led to the selection of SARIMA models for further analysis.
+
+<img src='https://github.com/user-attachments/assets/a4614945-d7d7-43c4-8342-ade8cfbc4629' width='600px' height='400px'>
+<br>
+<img src='https://github.com/user-attachments/assets/2344b22b-7776-4815-9344-381832ce11df' width='400px' height='300px'>
+<img src='https://github.com/user-attachments/assets/9ca16f58-c5d1-44c0-bdfa-effefe8467d2' width='400px' height='300px'>
+
+2. Model Building and Residual Analysis:
+Three different models were initially built: Arima(2,0,2)(0,1,1), Arima(1,0,0)(2,1,0), and Arima(1,0,2)(0,1,1). After testing, Arima(1,0,0)(2,1,0) was chosen as the final model due to better performance. The ACF and PACF plots of the residuals showed that the values were not significantly different from zero, suggesting that the residuals were stationary. Additionally, the Ljung-Box test returned a p-value less than 0.05, allowing the rejection of the null hypothesis, and confirming that the residuals resembled white noise.
+
+3. Forecasting and Backtesting: 
+The forecast from the chosen Arima model shows a cyclical pattern, with the highest peak values slightly lower than previous cycles, which is consistent with the natural fluctuation of the data. For backtesting, the model used 80% of the data as a training set. The RMSE (Root Mean Square Error) was 10.16, and the mean absolute percentage error (MAPE) was 7%, both of which indicate good model performance with low deviation in forecasted values.
+
+4. GARCH Effect:
+The analysis of the GARCH (Generalized Autoregressive Conditional Heteroskedasticity) effect revealed that the residuals’ Ljung-Box test led to the rejection of the null hypothesis, meaning the residuals showed some correlation. However, when examining the squared returns, the Ljung-Box test failed to reject the null hypothesis, indicating no significant correlation in squared residuals.
+
+5. Conclusion:
+   The calorie consumption data shows clear seasonality with a repeating 24-hour pattern. The Arima(1,0,0)(2,1,0) model was chosen as the most suitable for forecasting due to its strong performance in residual analysis and backtesting. The model captured the cyclical nature of calorie consumption, though there was a slight drop in the highest peak values. The residuals were found to resemble white noise, and the Ljung-Box test confirmed that the model was adequate for forecasting. The GARCH effect analysis suggested some autocorrelation in residuals but no significant correlation in squared returns. Overall, the analysis provides a reliable model for predicting calorie consumption over short-term periods, though more complexity may be needed for long-term forecasting.
 
 
 
