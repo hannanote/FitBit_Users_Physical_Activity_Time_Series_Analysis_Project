@@ -21,7 +21,6 @@ The data: steps, calories burned, weight
 Next step
 - There is not engough data. It is difficult to check trends or seasonality more deeply.
 
-![image](https://github.com/user-attachments/assets/a4614945-d7d7-43c4-8342-ade8cfbc4629)
 <img src='https://github.com/user-attachments/assets/a4614945-d7d7-43c4-8342-ade8cfbc4629' width='600px' height='400px'>
 
 <img src='https://github.com/user-attachments/assets/2344b22b-7776-4815-9344-381832ce11df' width='400px' height='300px'>
