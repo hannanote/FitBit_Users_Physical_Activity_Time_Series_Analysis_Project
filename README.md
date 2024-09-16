@@ -21,15 +21,10 @@ The data: steps, calories burned, weight
 Next step
 - There is not engough data. It is difficult to check trends or seasonality more deeply.
 
-![9d25871c-7402-40e3-b29a-7ea17b09df65](https://github.com/user-attachments/assets/82e95381-0f01-4418-87dc-68489b9e77da)
-
-![7b7cad05-812a-48da-a23a-8290f78c5d01](https://github.com/user-attachments/assets/37861350-b5d4-419e-88cd-16494c662da4)
-
-![783076cd-8e4a-428f-9bc2-a18797865cea](https://github.com/user-attachments/assets/3b58d7a6-48a6-43cf-920f-5a46739b80a5)
-
-![d720cc42-b2b8-492e-8dd7-35e9715b4690](https://github.com/user-attachments/assets/e32894b9-a613-4590-a041-7548158a8e5b)
-
 ![b9e051b8-f365-4476-b91f-5a829838f444](https://github.com/user-attachments/assets/a4614945-d7d7-43c4-8342-ade8cfbc4629)
+
+<img src='https://github.com/user-attachments/assets/8d3789aa-795a-4c98-b385-7ca24ed97706' width='400px' height='300px'>
+<img src='https://github.com/user-attachments/assets/9ca16f58-c5d1-44c0-bdfa-effefe8467d2' width='400px' height='300px'>
 
 ![963fd893-c068-4ed7-9cf3-e91c332bb3cc](https://github.com/user-attachments/assets/8d3789aa-795a-4c98-b385-7ca24ed97706)
 
