@@ -8,13 +8,6 @@ The primary goal of this analysis is to explore how users engage with their fitn
 This analysis employs time series models to capture seasonality and trends in users' physical activity. By analyzing these patterns, we aim to provide a deeper understanding of the relationship between daily routines and physical output, such as step counts and calorie expenditure. The ultimate objective is to gain actionable insights that could contribute to enhancing user experience and promoting healthier lifestyles through personalized feedback based on activity patterns.
 
 
-### Weight Analysis
-
-![image](https://github.com/user-attachments/assets/c83446a1-3eca-4b07-a922-0bfa45db3c35)
-
-![image](https://github.com/user-attachments/assets/b2f2a7ef-f201-425c-b59f-78222fa6aee7)
-
-
 
 ### Steps Analysis
 1. Seasonality & Trends:
