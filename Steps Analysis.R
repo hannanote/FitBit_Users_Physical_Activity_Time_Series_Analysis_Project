@@ -8,7 +8,7 @@ source('eacf.R')
 source('backtest.R')
 
 
-steps = read.csv("C:/Users/choin/Downloads/Hannanote/FitBit_Users_Activity/hourlySteps_merged.csv")
+steps <- read.csv("C:/Users/choin/Downloads/hannanote/FitBit_Users_Activity/hourlySteps_merged.csv")
 head(steps)
 steps$ActivityHour = mdy_hms(steps$ActivityHour)
 
