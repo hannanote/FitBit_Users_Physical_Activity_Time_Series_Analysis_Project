@@ -1,7 +1,7 @@
 ## FitBit Users Physical Activity Analysis
 
 ### Introduction
-The FitBit Fitness Tracker Data offers valuable insights into users' daily physical activities and habits by capturing detailed movement and calorie consumption patterns. This dataset includes time series data collected from FitBit users over a 30-day period, spanning from March 12, 2016, to May 16, 2016. It contains information on two key metrics: hourly step counts and calories burned.
+The FitBit Fitness Tracker Data offers valuable insights into users' daily physical activities and habits by capturing detailed movement and calorie consumption patterns. This dataset includes time series data collected from FitBit users over a 30-day period, spanning from March 12, 2016, to May 12, 2016. It contains information on two key metrics: hourly step counts and calories burned.
 
 The primary goal of this analysis is to explore how users engage with their fitness trackers and uncover behavioral trends in their daily activity. Specifically, the analysis aims to identify patterns such as variations in step counts during different times of the day (e.g., nighttime versus daytime activity) and cyclical calorie-burning patterns. Understanding these trends can offer insights into users' fitness behaviors, help in creating personalized fitness plans, and support the development of targeted interventions to improve physical health.
 
@@ -67,18 +67,9 @@ This analysis employs time series models to capture seasonality and trends in us
 
 
 <br>
-<img src='https://github.com/user-attachments/assets/3a6cd947-a726-433b-8c80-eb90865abba4' width='350px' height='100px'>
+<img src='https://github.com/user-attachments/assets/3a6cd947-a726-433b-8c80-eb90865abba4' width='300px' height='100px'>
 <img src='https://github.com/user-attachments/assets/e4ca4ff1-b797-4ecb-b04c-35d0c700ccb2' width='400px' height='350px'>
 <img src='https://github.com/user-attachments/assets/488b5dbd-7ae9-44b8-bf9c-e57618f566cd' width='300px' height='100px'>
-
-
-
-![image](https://github.com/user-attachments/assets/3a6cd947-a726-433b-8c80-eb90865abba4)
-
-![image](https://github.com/user-attachments/assets/e4ca4ff1-b797-4ecb-b04c-35d0c700ccb2)
-
-![image](https://github.com/user-attachments/assets/488b5dbd-7ae9-44b8-bf9c-e57618f566cd)
-
 
 
 4. Forecasting and Backtesting:
@@ -87,7 +78,7 @@ The forecast from the chosen Arima model shows a cyclical pattern, with the high
 <br>
 ![image](https://github.com/user-attachments/assets/a21aad9e-67eb-4dc6-8f4f-cd4f7a57cb15)
 
-<img src='https://github.com/user-attachments/assets/a21aad9e-67eb-4dc6-8f4f-cd4f7a57cb15' width='400px' height='400px'>
+<img src='https://github.com/user-attachments/assets/a21aad9e-67eb-4dc6-8f4f-cd4f7a57cb15' width='350px' height='350px'>
 <img src='https://github.com/user-attachments/assets/61f008a7-7a14-4d95-9db4-1ce9421397aa' width='400px' height='100px'>
 <br>
 
