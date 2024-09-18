@@ -67,7 +67,9 @@ This analysis employs time series models to capture seasonality and trends in us
 
 <img src='https://github.com/user-attachments/assets/e4ca4ff1-b797-4ecb-b04c-35d0c700ccb2' width='300px' height='250px'>
 <br>
+
 ![image](https://github.com/user-attachments/assets/e4ca4ff1-b797-4ecb-b04c-35d0c700ccb2)
+
 <img src='https://github.com/user-attachments/assets/3a6cd947-a726-433b-8c80-eb90865abba4' width='300px' height='100px'>
 <img src='https://github.com/user-attachments/assets/488b5dbd-7ae9-44b8-bf9c-e57618f566cd' width='300px' height='100px'>
 
