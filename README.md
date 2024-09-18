@@ -70,8 +70,8 @@ This analysis employs time series models to capture seasonality and trends in us
 
 ![image](https://github.com/user-attachments/assets/e4ca4ff1-b797-4ecb-b04c-35d0c700ccb2)
 
-<img src='https://github.com/user-attachments/assets/e4ca4ff1-b797-4ecb-b04c-35d0c700ccb2' width='400px' height='350px'>
 <img src='https://github.com/user-attachments/assets/3a6cd947-a726-433b-8c80-eb90865abba4' width='300px' height='100px'>
+<img src='https://github.com/user-attachments/assets/e4ca4ff1-b797-4ecb-b04c-35d0c700ccb2' width='400px' height='350px'>
 <img src='https://github.com/user-attachments/assets/488b5dbd-7ae9-44b8-bf9c-e57618f566cd' width='300px' height='100px'>
 
 
@@ -87,11 +87,10 @@ This analysis employs time series models to capture seasonality and trends in us
 4. Forecasting and Backtesting:
    
 The forecast from the chosen Arima model shows a cyclical pattern, with the highest peak values slightly lower than previous cycles, which is consistent with the natural fluctuation of the data. For backtesting, the model used 80% of the data as a training set. The RMSE (Root Mean Square Error) was 10.16, and the mean absolute percentage error (MAPE) was 7%, both of which indicate good model performance with low deviation in forecasted values.
-
-<img src='https://github.com/user-attachments/assets/a21aad9e-67eb-4dc6-8f4f-cd4f7a57cb15' width='400px' height='300px'>
 <br>
 ![image](https://github.com/user-attachments/assets/a21aad9e-67eb-4dc6-8f4f-cd4f7a57cb15)
-<br>
+
+<img src='https://github.com/user-attachments/assets/a21aad9e-67eb-4dc6-8f4f-cd4f7a57cb15' width='400px' height='300px'>
 <img src='https://github.com/user-attachments/assets/61f008a7-7a14-4d95-9db4-1ce9421397aa' width='400px' height='100px'>
 
 
