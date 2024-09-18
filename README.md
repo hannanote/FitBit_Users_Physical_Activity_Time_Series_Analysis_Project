@@ -9,6 +9,8 @@ This analysis employs time series models to capture seasonality and trends in us
 
 
 
+<br>
+
 ### Steps Analysis
 1. Seasonality & Trends:
    - The hourly step data displays clear 24-hour seasonality, which aligns with people's natural activity patterns. There is also a potential secondary seasonality (12hours) indicated by the autocorrelation function (ACF).
@@ -47,6 +49,8 @@ This analysis employs time series models to capture seasonality and trends in us
 
 
 
+<br>
+
 ### Calories Analysis
 1. Exploratory Data Analysis:
 The hourly calorie consumption data exhibits clear seasonality, with patterns repeating over a 24-hour period. The ACF (Autocorrelation Function) graph shows a strong correlation at 12 hours, while the differenced ACF confirms a 24-hour seasonality. The EACF plot also supports this, with clear seasonal behavior observed at lag 23. This led to the selection of SARIMA models for further analysis.
@@ -69,8 +73,12 @@ The analysis of the GARCH (Generalized Autoregressive Conditional Heteroskedasti
    The calorie consumption data shows clear seasonality with a repeating 24-hour pattern. The Arima(1,0,0)(2,1,0) model was chosen as the most suitable for forecasting due to its strong performance in residual analysis and backtesting. The model captured the cyclical nature of calorie consumption, though there was a slight drop in the highest peak values. The residuals were found to resemble white noise, and the Ljung-Box test confirmed that the model was adequate for forecasting. The GARCH effect analysis suggested some autocorrelation in residuals but no significant correlation in squared returns. Overall, the analysis provides a reliable model for predicting calorie consumption over short-term periods, though more complexity may be needed for long-term forecasting.
 
 
+<br>
+
 ### Conclusion
 Both the step count and calorie consumption analyses reveal strong seasonality in daily activity, with distinct 24-hour patterns. The ARIMA models successfully captured these patterns, although further complexity was necessary for more accurate and reliable long-term forecasts, as observed in both datasets. The residual analysis shows that the models used for both datasets were appropriate for short-term forecasting, as the residuals resembled white noise, and performance metrics such as RMSE and MAPE were low.
+
+<br>
 
 ### Next Actions
 1. Data Segmentation:
