@@ -67,7 +67,7 @@ This analysis employs time series models to capture seasonality and trends in us
 
 
 <br>
-<img src='https://github.com/user-attachments/assets/3a6cd947-a726-433b-8c80-eb90865abba4' width='400px' height='200px'>
+<img src='https://github.com/user-attachments/assets/3a6cd947-a726-433b-8c80-eb90865abba4' width='350px' height='100px'>
 <img src='https://github.com/user-attachments/assets/e4ca4ff1-b797-4ecb-b04c-35d0c700ccb2' width='400px' height='350px'>
 <img src='https://github.com/user-attachments/assets/488b5dbd-7ae9-44b8-bf9c-e57618f566cd' width='300px' height='100px'>
 
@@ -87,7 +87,7 @@ The forecast from the chosen Arima model shows a cyclical pattern, with the high
 <br>
 ![image](https://github.com/user-attachments/assets/a21aad9e-67eb-4dc6-8f4f-cd4f7a57cb15)
 
-<img src='https://github.com/user-attachments/assets/a21aad9e-67eb-4dc6-8f4f-cd4f7a57cb15' width='500px' height='500px'>
+<img src='https://github.com/user-attachments/assets/a21aad9e-67eb-4dc6-8f4f-cd4f7a57cb15' width='400px' height='400px'>
 <img src='https://github.com/user-attachments/assets/61f008a7-7a14-4d95-9db4-1ce9421397aa' width='400px' height='100px'>
 <br>
 
